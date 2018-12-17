@@ -48,7 +48,7 @@ function sendAutoUpdateStatus (text) {
 }
 
 ipcMain.on('update', (event, arg) => {
-  let feedUrl = `http://studio.vsochina.com/releases/win32/latest.yml`
+  let feedUrl = `https://github.com/moyee/electronvuetest/releases/`
   autoUpdater.setFeedURL(feedUrl)
   autoUpdater.checkForUpdates()
 })
