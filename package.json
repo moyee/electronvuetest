@@ -1,8 +1,9 @@
 {
   "name": "electronvuetest",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "author": "chlu <luc.china@qq.com>",
   "description": "An electron-vue project",
+  "repository": "https://github.com/moyee/electronvuetest",
   "license": "MIT",
   "main": "./dist/electron/main.js",
   "scripts": {
